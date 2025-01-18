@@ -1,1 +1,39 @@
-
+{
+  "overall_metrics": {
+    "mean_scores": {
+      "simple": 0.8,
+      "medium": 0.7,
+      "complex": 0.6
+    },
+    "std_scores": {
+      "simple": 0.1,
+      "medium": 0.15,
+      "complex": 0.2
+    }
+  },
+  "type_performance": {
+    "basic": {
+      "mean": 0.85
+    },
+    "intermediate": {
+      "mean": 0.75
+    },
+    "advanced": {
+      "mean": 0.65
+    }
+  },
+  "fit_analysis": {
+    "underfitting_indicators": {
+      "simple_tasks_performance": 0.8,
+      "variance_in_basic_tasks": 0.1
+    },
+    "overfitting_indicators": {
+      "complex_vs_novel_ratio": 0.7,
+      "edge_case_performance": 0.6
+    }
+  },
+  "conclusions": {
+    "underfitting_risk": "low",
+    "overfitting_risk": "medium"
+  }
+}
