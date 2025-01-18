@@ -1,0 +1,63 @@
+{
+  "dataset": "databricks/databricks-dolly-15k",
+  "split": "train",
+  "model": "claude-3-5-sonnet-20241022",
+  "num_samples": 5,
+  "metrics": {
+    "bert_score_precision": 0.8260811567306519,
+    "bert_score_recall": 0.8840119242668152,
+    "bert_score_f1": 0.8537153005599976
+  },
+  "samples": [
+    {
+      "prompt": "When did Virgin Australia start operating?",
+      "reference": "Virgin Australia commenced services on 31 August 2000 as Virgin Blue, with two aircraft on a single route.",
+      "generated": "Virgin Australia began operations in 2000 as Virgin Blue. It was established by Richard Branson's Virgin Group and initially operated as a low-cost carrier. The airline rebranded to Virgin Australia in 2011 as part of its transformation into a full-service airline competing with Qantas.",
+      "scores": {
+        "precision": 0.8689689040184021,
+        "recall": 0.9038611054420471,
+        "f1": 0.8860716819763184
+      }
+    },
+    {
+      "prompt": "Which is a species of fish? Tope or Rope",
+      "reference": "Tope",
+      "generated": "Tope is a species of fish. The Tope (Galeorhinus galeus), also known as the School shark or Soupfin shark, is a species of houndshark that can be found in temperate seas worldwide. It's a medium-sized shark that typically grows to about 1.5-2 meters in length.\n\nRope is not a species of fish - it's a length of thick string or cord, made by twisting together strands of fiber or wire.",
+      "scores": {
+        "precision": 0.749767005443573,
+        "recall": 0.8552711009979248,
+        "f1": 0.7990514636039734
+      }
+    },
+    {
+      "prompt": "Why can camels survive for long without water?",
+      "reference": "Camels use the fat in their humps to keep them filled with energy and hydration for long periods of time.",
+      "generated": "Camels can survive for long periods without water due to several unique physiological adaptations:\n\n1. Water storage: While they don't store water in their humps (which actually contain fat), camels can drink large amounts of water (up to 30 gallons) in a short time and store it in their bloodstream.\n\n2. Water conservation:\n- Their kidneys and liver can efficiently process and conserve water\n- They produce concentrated urine and dry feces to minimize water loss\n- They can tolerate high body temperatures, reducing the need for cooling through sweating\n\n3. Blood cells:\n- Oval-shaped blood cells that can continue flowing even when dehydrated\n- Can handle large changes in water content without rupturing\n\n4. Body temperature regulation:\n- Can allow their body temperature to fluctuate from 93\u00b0F to 107\u00b0F\n- Only start sweating at higher temperatures than most mammals\n\n5. Fat storage:\n- Their humps store fat, which can be metabolized for both energy and water\n- When fat is metabolized, it produces water as a byproduct\n\n6. Efficient nostrils:\n- Can trap water vapor from exhaled air and return it to their body\n\nThese adaptations allow camels to survive up to a week without water in hot conditions and even longer in cooler weather.",
+      "scores": {
+        "precision": 0.7962419390678406,
+        "recall": 0.8838291764259338,
+        "f1": 0.8377524614334106
+      }
+    },
+    {
+      "prompt": "Alice's parents have three daughters: Amy, Jessy, and what\u2019s the name of the third daughter?",
+      "reference": "The name of the third daughter is Alice",
+      "generated": "Alice is the third daughter. The question itself contains the answer - Alice's parents have three daughters, and after naming Amy and Jessy, Alice would be the third daughter.",
+      "scores": {
+        "precision": 0.8611212372779846,
+        "recall": 0.8977336287498474,
+        "f1": 0.8790463805198669
+      }
+    },
+    {
+      "prompt": "When was Tomoaki Komorida born?",
+      "reference": "Tomoaki Komorida was born on July 10,1981.",
+      "generated": "I do not have enough reliable information to determine when Tomoaki Komorida was born. Without being able to verify this information from trustworthy sources, I cannot make any claims about their birth date.",
+      "scores": {
+        "precision": 0.8543068170547485,
+        "recall": 0.8793646693229675,
+        "f1": 0.8666546940803528
+      }
+    }
+  ]
+}
