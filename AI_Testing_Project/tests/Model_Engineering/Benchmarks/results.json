@@ -1,0 +1,113 @@
+{
+  "detailed_results": [
+    {
+      "source": "Hello, how are you?",
+      "claude_translation": "Hola, ¿cómo estás?",
+      "references": [
+        "Hola, ¿cómo estás?",
+        "Hola, ¿cómo te encuentras?"
+      ],
+      "bleu_score": 0.5623413251903491
+    },
+    {
+      "source": "The weather is beautiful today.",
+      "claude_translation": "El clima está hermoso hoy.",
+      "references": [
+        "El clima está hermoso hoy.",
+        "Hace un día hermoso.",
+        "El tiempo está precioso hoy."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "What's the weather like today?",
+      "claude_translation": "¿Qué tiempo hace hoy?",
+      "references": [
+        "¿Qué tiempo hace hoy?",
+        "¿Cómo está el clima hoy?"
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "I need to buy groceries for dinner tonight.",
+      "claude_translation": "Necesito comprar víveres para la cena de esta noche.",
+      "references": [
+        "Necesito comprar víveres para la cena de esta noche.",
+        "Tengo que comprar comestibles para la cena de hoy.",
+        "Necesito hacer las compras para la cena de hoy."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "What time does the movie start?",
+      "claude_translation": "¿A qué hora empieza la película?",
+      "references": [
+        "¿A qué hora empieza la película?",
+        "¿A qué hora comienza la película?",
+        "¿Cuándo empieza la película?"
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "My brother lives in New York City.",
+      "claude_translation": "Mi hermano vive en Nueva York.",
+      "references": [
+        "Mi hermano vive en Nueva York.",
+        "Mi hermano reside en Nueva York.",
+        "Mi hermano está viviendo en Nueva York."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "Could you please help me with my luggage?",
+      "claude_translation": "¿Me podría ayudar con mi equipaje?",
+      "references": [
+        "¿Podrías ayudarme con mi equipaje, por favor?",
+        "¿Me podrías ayudar con las maletas, por favor?",
+        "¿Podrías ayudarme con mis maletas?"
+      ],
+      "bleu_score": 0.12209471671615688
+    },
+    {
+      "source": "The restaurant opens at 6 PM.",
+      "claude_translation": "El restaurante abre a las 6 de la tarde.",
+      "references": [
+        "El restaurante abre a las 6 de la tarde.",
+        "El restaurante abre a las 18:00.",
+        "El restaurante abre a las seis de la tarde."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "She's studying computer science at the university.",
+      "claude_translation": "Ella está estudiando informática en la universidad.",
+      "references": [
+        "Ella está estudiando informática en la universidad.",
+        "Estudia ciencias de la computación en la universidad.",
+        "Está estudiando computación en la universidad."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "I love spending time with my family.",
+      "claude_translation": "Me encanta pasar tiempo con mi familia.",
+      "references": [
+        "Me encanta pasar tiempo con mi familia.",
+        "Me gusta pasar tiempo con mi familia.",
+        "Adoro pasar tiempo con mi familia."
+      ],
+      "bleu_score": 1.0
+    },
+    {
+      "source": "The meeting has been cancelled due to unforeseen circumstances.",
+      "claude_translation": "La reunión ha sido cancelada debido a circunstancias imprevistas.",
+      "references": [
+        "La reunión ha sido cancelada debido a circunstancias imprevistas.",
+        "La reunión se ha cancelado por circunstancias inesperadas.",
+        "Han cancelado la reunión debido a circunstancias imprevistas."
+      ],
+      "bleu_score": 1.0
+    }
+  ],
+  "average_bleu": 0.8804032765369552
+}

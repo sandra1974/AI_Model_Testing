@@ -1,0 +1,87 @@
+{
+    "total_questions": 10,
+    "correct_answers": 10,
+    "accuracy": 1.0,
+    "detailed_results": [
+        {
+            "context": "A person is making a sandwich. They start by laying out two slices of bread and",
+            "correct_ending": "spreading mayonnaise evenly on both slices.",
+            "predicted_ending": "spreading mayonnaise evenly on both slices.",
+            "correct_answer": "A",
+            "predicted_answer": "A",
+            "is_correct": true
+        },
+        {
+            "context": "A basketball player dribbles down the court and approaches the basket. He",
+            "correct_ending": "jumps up and performs a slam dunk.",
+            "predicted_ending": "jumps up and performs a slam dunk.",
+            "correct_answer": "B",
+            "predicted_answer": "B",
+            "is_correct": true
+        },
+        {
+            "context": "The chef is preparing a pasta dish. After boiling the noodles, they",
+            "correct_ending": "drain the water and add the sauce.",
+            "predicted_ending": "drain the water and add the sauce.",
+            "correct_answer": "C",
+            "predicted_answer": "C",
+            "is_correct": true
+        },
+        {
+            "context": "At the beginning of the movie, the audience",
+            "correct_ending": "settles into their seats and the lights dim.",
+            "predicted_ending": "settles into their seats and the lights dim.",
+            "correct_answer": "D",
+            "predicted_answer": "D",
+            "is_correct": true
+        },
+        {
+            "context": "The dog sees its owner grab the leash. Immediately, the dog",
+            "correct_ending": "gets excited and wags its tail.",
+            "predicted_ending": "gets excited and wags its tail.",
+            "correct_answer": "C",
+            "predicted_answer": "C",
+            "is_correct": true
+        },
+        {
+            "context": "During the piano recital, the performer sits at the piano and",
+            "correct_ending": "starts playing the assigned piece.",
+            "predicted_ending": "starts playing the assigned piece.",
+            "correct_answer": "A",
+            "predicted_answer": "A",
+            "is_correct": true
+        },
+        {
+            "context": "At the grocery store, the cashier picks up items and",
+            "correct_ending": "scans them and tells the customer the total.",
+            "predicted_ending": "scans them and tells the customer the total.",
+            "correct_answer": "C",
+            "predicted_answer": "C",
+            "is_correct": true
+        },
+        {
+            "context": "The painter stands in front of the blank canvas and",
+            "correct_ending": "begins applying paint with their brush.",
+            "predicted_ending": "begins applying paint with their brush.",
+            "correct_answer": "B",
+            "predicted_answer": "B",
+            "is_correct": true
+        },
+        {
+            "context": "As the rain starts falling, people on the street",
+            "correct_ending": "open their umbrellas and hurry for cover.",
+            "predicted_ending": "open their umbrellas and hurry for cover.",
+            "correct_answer": "D",
+            "predicted_answer": "D",
+            "is_correct": true
+        },
+        {
+            "context": "In the library, students are studying for exams. They",
+            "correct_ending": "quietly read their textbooks and take notes.",
+            "predicted_ending": "quietly read their textbooks and take notes.",
+            "correct_answer": "A",
+            "predicted_answer": "A",
+            "is_correct": true
+        }
+    ]
+}

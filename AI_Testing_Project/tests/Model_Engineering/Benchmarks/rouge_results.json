@@ -1,0 +1,241 @@
+{
+  "individual_scores": [
+    {
+      "prompt": "Summarize the key features of renewable energy sources.",
+      "reference": "Renewable energy sources are sustainable alternatives to fossil fuels. They include solar power, which harnesses sunlight through photovoltaic cells; wind power, captured by turbines; hydroelectric power from flowing water; geothermal energy from Earth's heat; and biomass from organic materials. These sources produce minimal greenhouse gas emissions, have lower environmental impact, and are increasingly cost-competitive. They provide energy security through distributed generation and create new job opportunities in the green economy. However, they can face challenges with intermittency and storage.",
+      "prediction": "Here's a summary of key features of renewable energy sources:\n\n1. Environmental Benefits\n- Clean, low or zero emissions\n- Minimal environmental impact\n- Reduces air and water pollution\n- Helps combat climate change\n\n2. Main Types\n- Solar power\n- Wind energy\n- Hydropower\n- Geothermal energy\n- Biomass\n- Tidal/wave energy\n\n3. Sustainability\n- Naturally replenished\n- Inexhaustible resources\n- Long-term availability\n- Reduced resource depletion\n\n4. Economic Aspects\n- Decreasing installation costs\n- Low operating costs\n- Job creation potential\n- Energy independence\n- Reduced fuel price volatility\n\n5. Technical Characteristics\n- Modular and scalable\n- Decentralized generation possible\n- Variable output (some sources)\n- Improving efficiency\n- Advancing storage solutions\n\n6. Limitations\n- Initial setup costs\n- Weather dependency\n- Storage challenges\n- Geographic restrictions\n- Grid integration needs\n\nThese features make renewable energy increasingly attractive for sustainable power generation.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.2457627118644068,
+          "recall": 0.35802469135802467,
+          "fmeasure": 0.2914572864321608
+        },
+        "rouge2": {
+          "precision": 0.042735042735042736,
+          "recall": 0.0625,
+          "fmeasure": 0.050761421319796954
+        },
+        "rougeL": {
+          "precision": 0.11016949152542373,
+          "recall": 0.16049382716049382,
+          "fmeasure": 0.1306532663316583
+        }
+      }
+    },
+    {
+      "prompt": "Explain the process of photosynthesis in simple terms.",
+      "reference": "Photosynthesis is the process plants use to convert sunlight into energy. Plants capture sunlight using chlorophyll in their leaves, then combine this solar energy with water from the soil and carbon dioxide from the air. Through this process, they produce glucose for energy and release oxygen as a byproduct. This glucose provides food for the plant's growth and survival, while the oxygen released is essential for most life on Earth. The process is crucial for maintaining Earth's ecosystem and forms the basis of most food chains.",
+      "prediction": "Photosynthesis is how plants make their own food using sunlight. Here's a simple breakdown:\n\n1. Plants take in sunlight through their leaves\n2. They absorb water through their roots\n3. They collect carbon dioxide from the air through tiny holes in their leaves\n4. Using these ingredients and chlorophyll (the green pigment in leaves), plants convert sunlight energy into chemical energy\n5. This process creates glucose (sugar) for the plant to use as food\n6. Oxygen is released into the air as a byproduct\n\nThink of it like a natural solar-powered food factory! The plant uses sunlight as its power source to turn water and carbon dioxide into sugar (its food) and oxygen (which we breathe).",
+      "scores": {
+        "rouge1": {
+          "precision": 0.4152542372881356,
+          "recall": 0.5568181818181818,
+          "fmeasure": 0.4757281553398058
+        },
+        "rouge2": {
+          "precision": 0.13675213675213677,
+          "recall": 0.1839080459770115,
+          "fmeasure": 0.1568627450980392
+        },
+        "rougeL": {
+          "precision": 0.2457627118644068,
+          "recall": 0.32954545454545453,
+          "fmeasure": 0.2815533980582524
+        }
+      }
+    },
+    {
+      "prompt": "What are the major causes and effects of climate change?",
+      "reference": "Climate change is primarily caused by greenhouse gas emissions from human activities, especially burning fossil fuels, deforestation, and industrial processes. These gases trap heat in the atmosphere, leading to global warming. The effects include rising sea levels due to melting polar ice, more frequent and severe weather events, changing precipitation patterns, and ecosystem disruption. This causes coastal flooding, threats to food security, species extinction, and human migration. Ocean acidification from absorbed CO2 threatens marine life, while warming temperatures increase disease spread and affect agriculture patterns.",
+      "prediction": "Climate change has several major causes and effects:\n\nMajor Causes:\n\n1. Greenhouse Gas Emissions\n- Burning of fossil fuels (coal, oil, gas)\n- Deforestation\n- Industrial processes\n- Agricultural practices\n- Transportation emissions\n\n2. Human Activities\n- Urbanization\n- Land use changes\n- Waste management\n- Industrial production\n- Population growth\n\nMajor Effects:\n\n1. Environmental Impact\n- Rising global temperatures\n- Melting ice caps and glaciers\n- Sea level rise\n- Extreme weather events\n- Ocean acidification\n- Loss of biodiversity\n\n2. Social and Economic Impact\n- Food security issues\n- Water scarcity\n- Health risks\n- Infrastructure damage\n- Economic losses\n- Displacement of populations\n\n3. Weather Pattern Changes\n- More frequent natural disasters\n- Irregular rainfall patterns\n- Longer droughts\n- Intense heat waves\n- Stronger storms\n\n4. Ecosystem Disruption\n- Species extinction\n- Habitat loss\n- Migration pattern changes\n- Coral reef destruction\n- Forest degradation\n\nThese effects create a feedback loop that can further accelerate climate change impacts.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.35384615384615387,
+          "recall": 0.5411764705882353,
+          "fmeasure": 0.42790697674418604
+        },
+        "rouge2": {
+          "precision": 0.10077519379844961,
+          "recall": 0.15476190476190477,
+          "fmeasure": 0.1220657276995305
+        },
+        "rougeL": {
+          "precision": 0.2076923076923077,
+          "recall": 0.3176470588235294,
+          "fmeasure": 0.2511627906976744
+        }
+      }
+    },
+    {
+      "prompt": "Describe the importance of regular exercise for health.",
+      "reference": "Regular exercise is crucial for maintaining physical and mental health. It strengthens the cardiovascular system, reducing the risk of heart disease and stroke. Exercise builds muscle strength and bone density, improves flexibility, and helps maintain a healthy weight. It boosts mental health by releasing endorphins, reducing stress, anxiety, and depression. Regular physical activity improves sleep quality, enhances cognitive function, and increases energy levels. It also helps prevent chronic diseases like type 2 diabetes and certain cancers. For optimal health benefits, adults should aim for at least 150 minutes of moderate activity or 75 minutes of vigorous activity weekly.",
+      "prediction": "Regular exercise is crucial for maintaining good physical and mental health. Here are key reasons why:\n\nPhysical Benefits:\n1. Weight management\n2. Stronger muscles and bones\n3. Improved cardiovascular health\n4. Better balance and flexibility\n5. Reduced risk of chronic diseases\n\nMental Benefits:\n1. Reduced stress and anxiety\n2. Improved mood through endorphin release\n3. Better sleep quality\n4. Enhanced cognitive function\n5. Increased self-esteem\n\nDisease Prevention:\n- Lowers risk of heart disease\n- Helps prevent type 2 diabetes\n- Reduces risk of some cancers\n- Strengthens immune system\n- Slows bone density loss\n\nSocial Benefits:\n1. Opportunities for social interaction\n2. Team building through group activities\n3. Improved confidence in social settings\n\nLong-term Benefits:\n1. Increased life expectancy\n2. Better quality of life\n3. Maintained independence in older age\n4. Reduced healthcare costs\n5. Enhanced daily functioning\n\nExperts recommend at least 150 minutes of moderate exercise or 75 minutes of vigorous exercise weekly for optimal health benefits.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.45806451612903226,
+          "recall": 0.7244897959183674,
+          "fmeasure": 0.5612648221343874
+        },
+        "rouge2": {
+          "precision": 0.21428571428571427,
+          "recall": 0.3402061855670103,
+          "fmeasure": 0.26294820717131473
+        },
+        "rougeL": {
+          "precision": 0.2967741935483871,
+          "recall": 0.46938775510204084,
+          "fmeasure": 0.36363636363636365
+        }
+      }
+    },
+    {
+      "prompt": "What were the main causes of World War I?",
+      "reference": "World War I was triggered by multiple interconnected factors. The immediate cause was the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914, but deeper causes included nationalism, militarism, and complex alliance systems in Europe. Imperial rivalry between European powers led to arms races and colonial competition. The system of secret alliances divided Europe into opposing camps: the Triple Alliance of Germany, Austria-Hungary, and Italy, versus the Triple Entente of Britain, France, and Russia. Growing nationalism, especially in the Balkans, created tensions between ethnic groups and empires. These factors combined to turn a local conflict into a global war.",
+      "prediction": "The main causes of World War I (1914-1918) can be summarized by the acronym MAIN:\n\n1. Militarism\n- Arms race between European powers\n- Rapid military buildup, especially naval competition between Britain and Germany\n\n2. Alliances\n- Triple Alliance: Germany, Austria-Hungary, Italy\n- Triple Entente: Britain, France, Russia\n- These alliances created a complex web of obligations\n\n3. Imperialism\n- Competition for colonies and resources\n- Territorial disputes\n- Economic rivalries between European powers\n\n4. Nationalism\n- Growing patriotic fervor\n- Ethnic tensions in the Balkans\n- Desire for self-determination among various ethnic groups\n\nImmediate trigger:\n- Assassination of Archduke Franz Ferdinand of Austria-Hungary in Sarajevo (June 28, 1914) by Serbian nationalist Gavrilo Princip\n\nAdditional contributing factors:\n- Balkans instability following decline of Ottoman Empire\n- Previous regional conflicts and territorial disputes\n- Political tensions between major European powers\n- Social and economic changes due to industrialization\n\nThese various factors combined to create conditions that allowed a regional conflict to escalate into a global war.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.48366013071895425,
+          "recall": 0.7326732673267327,
+          "fmeasure": 0.5826771653543307
+        },
+        "rouge2": {
+          "precision": 0.18421052631578946,
+          "recall": 0.28,
+          "fmeasure": 0.2222222222222222
+        },
+        "rougeL": {
+          "precision": 0.2549019607843137,
+          "recall": 0.38613861386138615,
+          "fmeasure": 0.3070866141732283
+        }
+      }
+    },
+    {
+      "prompt": "Explain how the human immune system works.",
+      "reference": "The human immune system is a complex network that protects the body from harmful pathogens. It consists of two main parts: the innate immune system, which provides immediate but general defense, and the adaptive immune system, which develops specific responses to threats. White blood cells, including lymphocytes and phagocytes, play key roles in identifying and destroying harmful organisms. The system produces antibodies to recognize specific pathogens, maintains immunological memory for faster future responses, and distinguishes between self and non-self cells. This sophisticated defense mechanism involves multiple organs, including the thymus, bone marrow, lymph nodes, and spleen.",
+      "prediction": "The human immune system is a complex network of cells, tissues, and organs that work together to defend the body against harmful pathogens. Here's a breakdown of how it works:\n\nTwo Main Components:\n\n1. Innate Immune System (First Line of Defense):\n- Physical barriers (skin, mucous membranes)\n- Chemical barriers (stomach acid, enzymes)\n- Inflammatory response\n- General pathogen-fighting cells\n\n2. Adaptive Immune System (Second Line of Defense):\n- Creates specific responses to particular pathogens\n- Remembers previous infections\n- Produces antibodies\n\nKey Components and Processes:\n\n1. White Blood Cells (Leukocytes):\n- Neutrophils\n- Lymphocytes (B-cells and T-cells)\n- Macrophages\n- Natural killer cells\n\n2. Antibodies:\n- Produced by B-cells\n- Target specific pathogens\n- Mark them for destruction\n\n3. Memory Cells:\n- Remember previous infections\n- Enable faster response to repeat infections\n- Basis for vaccination effectiveness\n\nBasic Process:\n\n1. Detection:\n- System identifies foreign substances\n- Recognizes \"non-self\" particles\n\n2. Response:\n- Immune cells mobilize\n- Inflammation occurs\n- Antibodies produced\n\n3. Elimination:\n- Pathogens destroyed\n- Infected cells removed\n- Immune response regulated\n\n4. Memory:\n- System records pathogen information\n- Creates lasting protection\n\nThe immune system provides continuous protection and adapts to new threats while maintaining a memory of past infections.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.32608695652173914,
+          "recall": 0.6185567010309279,
+          "fmeasure": 0.42704626334519574
+        },
+        "rouge2": {
+          "precision": 0.12021857923497267,
+          "recall": 0.22916666666666666,
+          "fmeasure": 0.15770609318996415
+        },
+        "rougeL": {
+          "precision": 0.22826086956521738,
+          "recall": 0.4329896907216495,
+          "fmeasure": 0.298932384341637
+        }
+      }
+    },
+    {
+      "prompt": "What are the key principles of effective communication?",
+      "reference": "Effective communication relies on several key principles. Clear and concise expression of ideas is fundamental, ensuring the message is easily understood. Active listening is crucial, involving full attention and appropriate feedback. Nonverbal communication, including body language and facial expressions, should align with the verbal message. Emotional intelligence helps in understanding and responding to others' feelings appropriately. Open-mindedness and respect for different viewpoints facilitate better dialogue. Timing and context awareness ensure messages are delivered when and where they'll be most effective. Regular feedback and clarification help prevent misunderstandings and maintain effective two-way communication.",
+      "prediction": "The key principles of effective communication include:\n\n1. Clarity\n- Use clear, simple language\n- Be specific and concrete\n- Avoid ambiguity and jargon\n- Structure messages logically\n\n2. Active Listening\n- Pay full attention\n- Show interest and engagement\n- Provide feedback\n- Ask clarifying questions\n\n3. Nonverbal Communication\n- Maintain appropriate eye contact\n- Use supportive body language\n- Be aware of facial expressions\n- Consider tone of voice\n\n4. Empathy\n- Understand others' perspectives\n- Show respect for different viewpoints\n- Be sensitive to emotions\n- Demonstrate understanding\n\n5. Feedback\n- Provide constructive feedback\n- Be open to receiving feedback\n- Confirm understanding\n- Address misunderstandings promptly\n\n6. Timing\n- Choose appropriate moments\n- Be mindful of context\n- Allow time for response\n- Respect others' time\n\n7. Conciseness\n- Be brief and focused\n- Avoid unnecessary information\n- Get to the point\n- Organize thoughts beforehand\n\n8. Authenticity\n- Be honest and transparent\n- Maintain consistency\n- Build trust\n- Show sincerity\n\n9. Cultural Awareness\n- Respect cultural differences\n- Adapt communication style\n- Be inclusive\n- Avoid assumptions\n\n10. Channel Selection\n- Choose appropriate medium\n- Consider audience preferences\n- Match message to medium\n- Ensure accessibility\n\n11. Emotional Intelligence\n- Manage emotions\n- Read others' emotions\n- Respond appropriately\n- Stay professional\n\n12. Assertiveness\n- Express thoughts clearly\n- Respect boundaries\n- Stand firm when needed\n- Balance confidence with respect\n\nThese principles help ensure effective communication in personal and professional contexts.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.29,
+          "recall": 0.6105263157894737,
+          "fmeasure": 0.3932203389830508
+        },
+        "rouge2": {
+          "precision": 0.06030150753768844,
+          "recall": 0.1276595744680851,
+          "fmeasure": 0.08191126279863481
+        },
+        "rougeL": {
+          "precision": 0.155,
+          "recall": 0.3263157894736842,
+          "fmeasure": 0.21016949152542372
+        }
+      }
+    },
+    {
+      "prompt": "Describe the process of cloud formation and precipitation.",
+      "reference": "Cloud formation begins when water vapor in the atmosphere rises and cools through various processes like convection or frontal lifting. As the air cools to its dew point, the water vapor condenses around tiny particles called condensation nuclei, forming water droplets or ice crystals. These droplets collect and grow larger, forming clouds. Different types of clouds form at various altitudes and under different conditions. Precipitation occurs when these droplets become too heavy to remain suspended. The type of precipitation (rain, snow, sleet, or hail) depends on atmospheric conditions like temperature and humidity. This process is part of Earth's water cycle, continuously recycling water between the surface and atmosphere.",
+      "prediction": "Cloud formation and precipitation is a natural cycle that involves several steps. Here's a detailed explanation:\n\nCloud Formation:\n1. Evaporation\n- Water from surfaces (oceans, lakes, rivers) heats up\n- Water molecules turn into water vapor\n- Warm air containing water vapor rises\n\n2. Rising Air\n- As air rises, it encounters lower pressure\n- The air expands and cools (adiabatic cooling)\n- Cooler air can hold less water vapor\n\n3. Condensation\n- Water vapor reaches dew point temperature\n- Vapor condenses around tiny particles (condensation nuclei)\n- Tiny water droplets or ice crystals form\n- Multiple droplets cluster together forming clouds\n\nPrecipitation:\n1. Droplet Growth\n- Water droplets/ice crystals continue to combine\n- Droplets become heavier\n- Updrafts can no longer support their weight\n\n2. Types of Precipitation\n- Rain: liquid water drops\n- Snow: ice crystals\n- Sleet: mixture of rain and snow\n- Hail: layered balls of ice\n\nFactors Affecting Precipitation:\n- Temperature\n- Humidity\n- Air pressure\n- Wind patterns\n- Geographical features\n\nThis continuous cycle is essential for:\n- Weather patterns\n- Water distribution\n- Supporting life on Earth\n- Maintaining ecosystems",
+      "scores": {
+        "rouge1": {
+          "precision": 0.3558282208588957,
+          "recall": 0.5321100917431193,
+          "fmeasure": 0.4264705882352941
+        },
+        "rouge2": {
+          "precision": 0.12345679012345678,
+          "recall": 0.18518518518518517,
+          "fmeasure": 0.14814814814814814
+        },
+        "rougeL": {
+          "precision": 0.25153374233128833,
+          "recall": 0.3761467889908257,
+          "fmeasure": 0.3014705882352941
+        }
+      }
+    },
+    {
+      "prompt": "What are the main features of a market economy?",
+      "reference": "A market economy is characterized by private ownership of resources and production means, with prices determined by supply and demand rather than government control. Competition between businesses drives innovation and efficiency, while consumer choice influences production decisions. The profit motive incentivizes entrepreneurship and resource allocation. Limited government intervention typically focuses on maintaining competition, protecting property rights, and providing public goods. Price mechanisms serve as signals that guide economic decisions. Labor markets operate freely, with wages determined by skill demand and supply. This system promotes economic freedom but can lead to income inequality and market failures requiring some regulation.",
+      "prediction": "A market economy has several key features:\n\n1. Private Property Rights\n- Individual ownership of resources and assets\n- Legal protection of property rights\n- Freedom to buy and sell property\n\n2. Freedom of Choice\n- Consumers choose what to buy\n- Businesses decide what to produce\n- Workers select their occupations\n\n3. Self-Interest\n- Individuals and businesses act to maximize their benefits\n- Profit motivation drives business decisions\n- Consumer choices based on personal preferences\n\n4. Competition\n- Multiple buyers and sellers\n- Price competition between businesses\n- Innovation and efficiency encouraged\n\n5. Price Mechanism\n- Prices determined by supply and demand\n- Market signals guide resource allocation\n- Prices coordinate economic activity\n\n6. Limited Government Role\n- Minimal government intervention\n- Focus on maintaining legal framework\n- Protection of property rights and contracts\n\n7. Voluntary Exchange\n- Free trade between willing parties\n- Mutually beneficial transactions\n- Open markets\n\n8. Entrepreneurship\n- Freedom to start businesses\n- Risk-taking encouraged\n- Innovation and creativity rewarded\n\nThese features work together to create a decentralized system where economic decisions are made by individual market participants rather than central authorities.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.3493975903614458,
+          "recall": 0.5918367346938775,
+          "fmeasure": 0.43939393939393945
+        },
+        "rouge2": {
+          "precision": 0.15151515151515152,
+          "recall": 0.25773195876288657,
+          "fmeasure": 0.19083969465648856
+        },
+        "rougeL": {
+          "precision": 0.1927710843373494,
+          "recall": 0.32653061224489793,
+          "fmeasure": 0.24242424242424243
+        }
+      }
+    },
+    {
+      "prompt": "Explain how neural networks in artificial intelligence work.",
+      "reference": "Neural networks in AI are computing systems inspired by biological brain structures. They consist of interconnected nodes (neurons) organized in layers: input, hidden, and output layers. Each connection has a weight that adjusts as the network learns from training data. Input data passes through the network, with each neuron processing information using activation functions. During training, the network adjusts connection weights through backpropagation, minimizing the difference between predicted and actual outputs. This allows the network to recognize patterns and make predictions. Deep neural networks with multiple hidden layers can learn complex representations, enabling applications in image recognition, natural language processing, and decision-making tasks.",
+      "prediction": "Neural networks in AI are computing systems inspired by biological brains. Here's a breakdown of how they work:\n\nBasic Structure:\n- Input Layer: Receives initial data\n- Hidden Layers: Processes information\n- Output Layer: Produces final results\n\nKey Components:\n1. Neurons (nodes)\n2. Weighted connections\n3. Activation functions\n\nProcess:\n1. Data enters through input layer\n2. Each connection carries a weight\n3. Neurons process inputs using:\n   - Sum of weighted inputs\n   - Activation function\n4. Information flows through layers\n5. Output layer provides results\n\nLearning occurs through:\n- Adjusting weights\n- Backpropagation\n- Training with examples\n- Error correction\n\nApplications include:\n- Image recognition\n- Speech processing\n- Pattern detection\n- Decision making\n\nThink of it like a brain learning from experience and adjusting its understanding accordingly.",
+      "scores": {
+        "rouge1": {
+          "precision": 0.48695652173913045,
+          "recall": 0.5384615384615384,
+          "fmeasure": 0.5114155251141552
+        },
+        "rouge2": {
+          "precision": 0.17543859649122806,
+          "recall": 0.1941747572815534,
+          "fmeasure": 0.18433179723502305
+        },
+        "rougeL": {
+          "precision": 0.30434782608695654,
+          "recall": 0.33653846153846156,
+          "fmeasure": 0.31963470319634707
+        }
+      }
+    }
+  ],
+  "average_scores": {
+    "rouge1": {
+      "precision": 0.3764857039327894,
+      "recall": 0.5804673788728479,
+      "fmeasure": 0.45365810610765056
+    },
+    "rouge2": {
+      "precision": 0.13096892387896303,
+      "recall": 0.20152942786703032,
+      "fmeasure": 0.15777973195391623
+    },
+    "rougeL": {
+      "precision": 0.22472141877356505,
+      "recall": 0.34617340524624235,
+      "fmeasure": 0.2706723842620121
+    }
+  }
+}
