@@ -1,1 +1,104 @@
+[
+        {
+            "ctx": "A person is making a sandwich. They start by laying out two slices of bread and",
+            "endings": [
+                "spreading mayonnaise evenly on both slices.",
+                "throwing the bread in the trash.",
+                "placing the bread in the washing machine.",
+                "planting the bread in the garden."
+            ],
+            "label": 0
+        },
+        {
+            "ctx": "A basketball player dribbles down the court and approaches the basket. He",
+            "endings": [
+                "sits down and starts reading a book.",
+                "jumps up and performs a slam dunk.",
+                "takes out his phone to make a call.",
+                "begins to dig a hole in the court."
+            ],
+            "label": 1
+        },
+        {
+            "ctx": "The chef is preparing a pasta dish. After boiling the noodles, they",
+            "endings": [
+                "throw them at the ceiling to test if they're done.",
+                "put them in the dishwasher to dry.",
+                "drain the water and add the sauce.",
+                "plant them in the garden to grow more pasta."
+            ],
+            "label": 2
+        },
+        {
+            "ctx": "At the beginning of the movie, the audience",
+            "endings": [
+                "leaves the theater immediately.",
+                "starts cooking dinner in their seats.",
+                "begins playing loud music.",
+                "settles into their seats and the lights dim."
+            ],
+            "label": 3
+        },
+        {
+            "ctx": "The dog sees its owner grab the leash. Immediately, the dog",
+            "endings": [
+                "starts doing taxes.",
+                "begins making dinner.",
+                "gets excited and wags its tail.",
+                "falls asleep."
+            ],
+            "label": 2
+        },
+        {
+            "ctx": "During the piano recital, the performer sits at the piano and",
+            "endings": [
+                "starts playing the assigned piece.",
+                "begins eating lunch.",
+                "takes a nap on the keys.",
+                "disassembles the piano."
+            ],
+            "label": 0
+        },
+        {
+            "ctx": "At the grocery store, the cashier picks up items and",
+            "endings": [
+                "juggles them for entertainment.",
+                "plants them in the store floor.",
+                "scans them and tells the customer the total.",
+                "eats them immediately."
+            ],
+            "label": 2
+        },
+        {
+            "ctx": "The painter stands in front of the blank canvas and",
+            "endings": [
+                "does jumping jacks.",
+                "begins applying paint with their brush.",
+                "takes a shower.",
+                "orders pizza."
+            ],
+            "label": 1
+        },
+        {
+            "ctx": "As the rain starts falling, people on the street",
+            "endings": [
+                "start swimming upstream.",
+                "begin planting gardens.",
+                "lay down for a nap.",
+                "open their umbrellas and hurry for cover."
+            ],
+            "label": 3
+        },
+        {
+            "ctx": "In the library, students are studying for exams. They",
+            "endings": [
+                "quietly read their textbooks and take notes.",
+                "start a loud dance party.",
+                "begin cooking a feast.",
+                "build a fort out of furniture."
+            ],
+            "label": 0
+        }
+    ]
+
 
