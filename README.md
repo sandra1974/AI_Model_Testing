@@ -15,14 +15,14 @@ The following environment should be set up:<br/>
 •	API key generated from this link: https://console.anthropic.com/dashboard<br/> 
 •	Configure environment variables > > > variable name: $ANTHROPIC_API_KEY and variable value: your api key<br/>
 
-##Benchmark Testing
+##Benchmark Testing<br/>
 Benchmark tests are written in Python and completed in 2 ways:<br/>
 -	Using dataset files stored in Dataset folder<br/>
 -	Using the HuggingFace dataset<br/> 
 
-All Benchmark tests are stored inside Model_Engineering folder.
+All Benchmark tests are stored inside Model_Engineering folder.<br/>
 
-###MMLU evaluation
+###MMLU evaluation<br/>
 MMLU (Massive Multitask Language Understanding) is a testing tool that evaluates how well AI language models perform across 57 different subjects. It works like a comprehensive exam, using multiple-choice questions to test knowledge in areas from basic science to advanced professional topics like law and medicine. Its main purpose is to measure how well AI models understand and can reason about different subjects, and to provide a way to compare different AI models' capabilities. The test helps:
 •	Measure knowledge across many fields
 •	Compare different AI models
