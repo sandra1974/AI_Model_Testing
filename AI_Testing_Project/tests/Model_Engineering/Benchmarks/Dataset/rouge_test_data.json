@@ -1,0 +1,42 @@
+[
+    {
+        "prompt": "Summarize the key features of renewable energy sources.",
+        "reference": "Renewable energy sources are sustainable alternatives to fossil fuels. They include solar power, which harnesses sunlight through photovoltaic cells; wind power, captured by turbines; hydroelectric power from flowing water; geothermal energy from Earth's heat; and biomass from organic materials. These sources produce minimal greenhouse gas emissions, have lower environmental impact, and are increasingly cost-competitive. They provide energy security through distributed generation and create new job opportunities in the green economy. However, they can face challenges with intermittency and storage."
+    },
+    {
+        "prompt": "Explain the process of photosynthesis in simple terms.",
+        "reference": "Photosynthesis is the process plants use to convert sunlight into energy. Plants capture sunlight using chlorophyll in their leaves, then combine this solar energy with water from the soil and carbon dioxide from the air. Through this process, they produce glucose for energy and release oxygen as a byproduct. This glucose provides food for the plant's growth and survival, while the oxygen released is essential for most life on Earth. The process is crucial for maintaining Earth's ecosystem and forms the basis of most food chains."
+    },
+    {
+        "prompt": "What are the major causes and effects of climate change?",
+        "reference": "Climate change is primarily caused by greenhouse gas emissions from human activities, especially burning fossil fuels, deforestation, and industrial processes. These gases trap heat in the atmosphere, leading to global warming. The effects include rising sea levels due to melting polar ice, more frequent and severe weather events, changing precipitation patterns, and ecosystem disruption. This causes coastal flooding, threats to food security, species extinction, and human migration. Ocean acidification from absorbed CO2 threatens marine life, while warming temperatures increase disease spread and affect agriculture patterns."
+    },
+    {
+        "prompt": "Describe the importance of regular exercise for health.",
+        "reference": "Regular exercise is crucial for maintaining physical and mental health. It strengthens the cardiovascular system, reducing the risk of heart disease and stroke. Exercise builds muscle strength and bone density, improves flexibility, and helps maintain a healthy weight. It boosts mental health by releasing endorphins, reducing stress, anxiety, and depression. Regular physical activity improves sleep quality, enhances cognitive function, and increases energy levels. It also helps prevent chronic diseases like type 2 diabetes and certain cancers. For optimal health benefits, adults should aim for at least 150 minutes of moderate activity or 75 minutes of vigorous activity weekly."
+    },
+    {
+        "prompt": "What were the main causes of World War I?",
+        "reference": "World War I was triggered by multiple interconnected factors. The immediate cause was the assassination of Archduke Franz Ferdinand of Austria-Hungary in 1914, but deeper causes included nationalism, militarism, and complex alliance systems in Europe. Imperial rivalry between European powers led to arms races and colonial competition. The system of secret alliances divided Europe into opposing camps: the Triple Alliance of Germany, Austria-Hungary, and Italy, versus the Triple Entente of Britain, France, and Russia. Growing nationalism, especially in the Balkans, created tensions between ethnic groups and empires. These factors combined to turn a local conflict into a global war."
+    },
+    {
+        "prompt": "Explain how the human immune system works.",
+        "reference": "The human immune system is a complex network that protects the body from harmful pathogens. It consists of two main parts: the innate immune system, which provides immediate but general defense, and the adaptive immune system, which develops specific responses to threats. White blood cells, including lymphocytes and phagocytes, play key roles in identifying and destroying harmful organisms. The system produces antibodies to recognize specific pathogens, maintains immunological memory for faster future responses, and distinguishes between self and non-self cells. This sophisticated defense mechanism involves multiple organs, including the thymus, bone marrow, lymph nodes, and spleen."
+    },
+    {
+        "prompt": "What are the key principles of effective communication?",
+        "reference": "Effective communication relies on several key principles. Clear and concise expression of ideas is fundamental, ensuring the message is easily understood. Active listening is crucial, involving full attention and appropriate feedback. Nonverbal communication, including body language and facial expressions, should align with the verbal message. Emotional intelligence helps in understanding and responding to others' feelings appropriately. Open-mindedness and respect for different viewpoints facilitate better dialogue. Timing and context awareness ensure messages are delivered when and where they'll be most effective. Regular feedback and clarification help prevent misunderstandings and maintain effective two-way communication."
+    },
+    {
+        "prompt": "Describe the process of cloud formation and precipitation.",
+        "reference": "Cloud formation begins when water vapor in the atmosphere rises and cools through various processes like convection or frontal lifting. As the air cools to its dew point, the water vapor condenses around tiny particles called condensation nuclei, forming water droplets or ice crystals. These droplets collect and grow larger, forming clouds. Different types of clouds form at various altitudes and under different conditions. Precipitation occurs when these droplets become too heavy to remain suspended. The type of precipitation (rain, snow, sleet, or hail) depends on atmospheric conditions like temperature and humidity. This process is part of Earth's water cycle, continuously recycling water between the surface and atmosphere."
+    },
+    {
+        "prompt": "What are the main features of a market economy?",
+        "reference": "A market economy is characterized by private ownership of resources and production means, with prices determined by supply and demand rather than government control. Competition between businesses drives innovation and efficiency, while consumer choice influences production decisions. The profit motive incentivizes entrepreneurship and resource allocation. Limited government intervention typically focuses on maintaining competition, protecting property rights, and providing public goods. Price mechanisms serve as signals that guide economic decisions. Labor markets operate freely, with wages determined by skill demand and supply. This system promotes economic freedom but can lead to income inequality and market failures requiring some regulation."
+    },
+    {
+        "prompt": "Explain how neural networks in artificial intelligence work.",
+        "reference": "Neural networks in AI are computing systems inspired by biological brain structures. They consist of interconnected nodes (neurons) organized in layers: input, hidden, and output layers. Each connection has a weight that adjusts as the network learns from training data. Input data passes through the network, with each neuron processing information using activation functions. During training, the network adjusts connection weights through backpropagation, minimizing the difference between predicted and actual outputs. This allows the network to recognize patterns and make predictions. Deep neural networks with multiple hidden layers can learn complex representations, enabling applications in image recognition, natural language processing, and decision-making tasks."
+    }
+]
