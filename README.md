@@ -1,7 +1,7 @@
 # AI_Model_Testing
 This project aims to validate how an AI model behaves in different scenarios and whether it returns exact, accurate, and relevant answers. It is also tested how the AI model behaves when many users simultaneously ask questions and what is the speed of the AI model response. All these tests are conducted on AI model claude-3-5-sonnet-20241022. Test scripts are divided into two separate folders: 
 
-•	Model_Engineering </>
+•	Model_Engineering 
 •	Model_Evaluation
 
 During the model engineering phase, benchmark tests and overfitting and underfitting evaluations are completed, while functional, performance, and API tests are executed in the model evaluation phase. However, API tests can also be performed at an earlier stage.
