@@ -7,18 +7,18 @@ This project aims to validate how an AI model behaves in different scenarios and
 During the model engineering phase, benchmark tests and overfitting and underfitting evaluations are completed, while functional, performance, and API tests are executed in the model evaluation phase. However, API tests can also be performed at an earlier stage.
 
 ## Prerequisites
-The following environment should be set up:
-•	Visual Studio
-•	Python
-•	Postman
-•	JMeter
-•	API key generated from this link: https://console.anthropic.com/dashboard 
-•	Configure environment variables > > > variable name: $ANTHROPIC_API_KEY and variable value: your api key
+The following environment should be set up:<br/>
+•	Visual Studio<br/>
+•	Python<br/>
+•	Postman<br/>
+•	JMeter<br/>
+•	API key generated from this link: https://console.anthropic.com/dashboard<br/> 
+•	Configure environment variables > > > variable name: $ANTHROPIC_API_KEY and variable value: your api key<br/>
 
 ##Benchmark Testing
-Benchmark tests are written in Python and completed in 2 ways:
--	Using dataset files stored in Dataset folder
--	Using the HuggingFace dataset 
+Benchmark tests are written in Python and completed in 2 ways:<br/>
+-	Using dataset files stored in Dataset folder<br/>
+-	Using the HuggingFace dataset<br/> 
 
 All Benchmark tests are stored inside Model_Engineering folder.
 
