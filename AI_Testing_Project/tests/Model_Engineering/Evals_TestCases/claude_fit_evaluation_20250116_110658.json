@@ -1,0 +1,70 @@
+{
+  "overall_metrics": {
+    "mean_scores": {
+      "simple": 0.0,
+      "moderate": 0.16666666666666666,
+      "complex": 0.75,
+      "novel": 0.98,
+      "edge_cases": 1.0
+    },
+    "std_scores": {
+      "simple": 0.0,
+      "moderate": 0.23570226039551584,
+      "complex": 0.0,
+      "novel": 0.0,
+      "edge_cases": 0.0
+    }
+  },
+  "type_performance": {
+    "arithmetic": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "common_knowledge": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "explanation": {
+      "mean": 0.3333333333333333,
+      "std": 0.4714045207910317
+    },
+    "problem_solving": {
+      "mean": 0.5,
+      "std": 0.0
+    },
+    "analysis": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "creativity": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "speculation": {
+      "mean": 0.96,
+      "std": 0.0
+    },
+    "precision": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "constraints": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "fit_analysis": {
+    "underfitting_indicators": {
+      "simple_tasks_performance": 0.0,
+      "variance_in_basic_tasks": 0.0
+    },
+    "overfitting_indicators": {
+      "complex_vs_novel_ratio": 0.7653061224489796,
+      "edge_case_performance": 1.0
+    }
+  },
+  "conclusions": {
+    "underfitting_risk": "High",
+    "overfitting_risk": "Low"
+  }
+}
