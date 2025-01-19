@@ -1,8 +1,8 @@
 # AI_Model_Testing
 This project aims to validate how an AI model behaves in different scenarios and whether it returns exact, accurate, and relevant answers. It is also tested how the AI model behaves when many users simultaneously ask questions and what is the speed of the AI model response. All these tests are conducted on AI model claude-3-5-sonnet-20241022. Test scripts are divided into two separate folders: 
 
-•	Model_Engineering<br/> 
-•	Model_Evaluation
+•	`Model_Engineering`<br/> 
+•	`Model_Evaluation`
 
 During the model engineering phase, benchmark tests and overfitting and underfitting evaluations are completed, while functional, performance, and API tests are executed in the model evaluation phase. However, API tests can also be performed at an earlier stage.
 
@@ -19,7 +19,7 @@ The following environment should be set up:<br/>
 ## Benchmark Testing<br/>
 Benchmark tests are written in Python and completed in 2 ways:<br/>
 
-•	Using dataset files stored in Dataset folder<br/>
+•	Using dataset files stored in `Dataset` folder<br/>
 •	Using the HuggingFace dataset<br/> 
 
 All Benchmark tests are stored inside `Model_Engineering` folder.<br/>
@@ -130,7 +130,7 @@ Overfitting: Simplify the model, use regularization, or gather more data.<br/>
 Underfitting: Increase model complexity, train longer, or optimize features.
 
 ## Automated Tests<br/>
-Functional Automated tests are stored inside Model_Evaluation folder. Test script is written in Python. Functional tests cover:<br/>
+Functional Automated tests are stored inside `Model_Evaluation` folder. Test script is written in Python. Functional tests cover:<br/>
 
 •	Functional completeness with unseen data<br/>
 •	Temperature testing<br/>
