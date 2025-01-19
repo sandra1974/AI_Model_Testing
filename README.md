@@ -30,14 +30,14 @@ MMLU (Massive Multitask Language Understanding) is a testing tool that evaluates
 •	Track AI progress in understanding complex topics
 
 Run (using stored dataset): C:\Windows\py.exe .\MMLU.py<br/>
-
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+C:\Windows\py.exe .\MMLU.py
 ```
 
-Run (using HuggingFace dataset):  C:\Windows\py.exe .\MMLU_Eval_HF.py
+Run (using HuggingFace dataset):  
+```
+C:\Windows\py.exe .\MMLU_Eval_HF.py
+```
 
 ### BLEU evaluation<br/>
 BLEU (Bilingual Evaluation Understudy) is a metric that measures machine translation quality by comparing AI translations to human translations. It works by counting matching words and phrases, giving a score from 0 to 1 (or 0-100%). Higher scores mean the AI translation is closer to human translation.
