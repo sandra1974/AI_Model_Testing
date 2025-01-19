@@ -58,7 +58,7 @@ HellaSwag is an AI test that measures common sense understanding. It shows the A
 
 Run (using stored dataset):  
 ```
-C:\Windows\py.exe .\ HellaSwag.py
+C:\Windows\py.exe .\HellaSwag.py
 ```
 Run (using HuggingFace dataset):  
 ```
@@ -70,11 +70,11 @@ TruthfulQA is a benchmark that tests whether AI models give accurate answers or 
 
 Run (using stored dataset):  
 ```
-C:\Windows\py.exe .\ TruthfulQA.py<br/>
+C:\Windows\py.exe .\TruthfulQA.py<br/>
 ```
 Run (using HuggingFace dataset):  
 ```
-C:\Windows\py.exe .\ TruthfulQA_HF.py
+C:\Windows\py.exe .\TruthfulQA_HF.py
 ```
 
 ### HumanEval evaluation<br/>
@@ -82,11 +82,11 @@ HumanEval is a coding benchmark with 164 Python programming problems. Each inclu
 
 Run (using stored dataset): 
 ```
-C:\Windows\py.exe .\ HumanEval.py
+C:\Windows\py.exe .\HumanEval.py
 ```
 Run (using HuggingFace dataset):  
 ```
-C:\Windows\py.exe .\ HumanEval_HF.py
+C:\Windows\py.exe .\HumanEval_HF.py
 ```
 
 ### Rouge evaluation<br/>
@@ -99,11 +99,11 @@ The following variants are evaluated:<br/>
 
 Run (using stored dataset):  
 ```
-C:\Windows\py.exe .\ ROUGE_Eval.py
+C:\Windows\py.exe .\ROUGE_Eval.py
 ```
 Run (using HuggingFace dataset):  
 ```
-C:\Windows\py.exe .\ ROUGE_Eval_HF.py
+C:\Windows\py.exe .\ROUGE_Eval_HF.py
 ```
 
 ### Bert evaluation<br/>
@@ -111,11 +111,11 @@ BERT evaluation typically uses benchmarks like GLUE and SQuAD to test the model'
 
 Run (using stored dataset):  
 ```
-C:\Windows\py.exe .\ BERT_Eval.py
+C:\Windows\py.exe .\BERT_Eval.py
 ```
 Run (using HuggingFace dataset):  
 ```
-C:\Windows\py.exe .\ BERT_Eval_HF.py
+C:\Windows\py.exe .\BERT_Eval_HF.py
 ```
 
 ## Overfitting and Underfitting Evaluation<br/>
