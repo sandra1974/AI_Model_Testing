@@ -171,16 +171,19 @@ API tests are written in Postman. They aim to validate:<br/>
 Postman collection should be imported to JMeter.<br/>
 
 JMeter configuration:<br/>
+
 • Create JMeter project or user existing one<br/> 
 • Add new Thread Group<br/>
 • Add a Recording controller (Thread Group > Add > Logic Controller > Recording Controller)<br/>
 • Add HTTP(S) Test Script Recorder (Test plan > Add > Non-Test Elements > HTTP(S) Test Script Recorder<br/>
 
 Postman configuration:<br/>
+
 • Select Settings > Proxy > Use custom proxy configuration option<br/>
 • Fill Proxy server fields: enter your IP and port:8888 (this is JMeter port)<br/>
 
 Action:<br/>
+
 • Collection should be open in Test Runner<br/>
 • From Run oder in Postman, select those test you want to run<br/>
 • In JMeter, inside HTTP(S) Test Script Recorder press Start button<br/>
