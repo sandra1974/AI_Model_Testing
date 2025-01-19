@@ -7,7 +7,7 @@ This project aims to validate how an AI model behaves in different scenarios and
 During the model engineering phase, benchmark tests and overfitting and underfitting evaluations are completed, while functional, performance, and API tests are executed in the model evaluation phase. However, API tests can also be performed at an earlier stage.
 
 ## Prerequisites
-The following environment should be set up:<br/>
+The following environment is set up:<br/>
 
 •	Visual Studio<br/>
 •	Python<br/>
