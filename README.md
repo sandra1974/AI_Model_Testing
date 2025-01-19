@@ -118,6 +118,36 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\BERT_Eval_HF.py
 ```
 
+### Key observations:
+1. There's a consistent pattern where the "stored data file" tests show significantly better performance than the HuggingFace dataset tests:
+MMLU: 100% vs 60% accuracy
+BLEU: 88% vs 31% score
+HellaSwag: 100% (no HuggingFace comparison)
+TruthfulQA: 100% truthful rate vs 3.4% accuracy
+
+2. The sample sizes are notably different:
+Stored data tests typically use smaller samples (10-30 samples)
+HuggingFace tests sometimes use larger samples (e.g., 817 for TruthfulQA)
+
+3. Rouge scores show mixed results:
+Stored data shows better recall but lower precision
+HuggingFace shows better precision but lower recall
+
+These results suggest that while the model performs exceptionally well on the stored data tests, the performance on HuggingFace datasets is significantly lower. This large disparity raises some important considerations:
+
+1. The small sample size in stored data tests might not be representative of real-world performance
+2. The perfect scores (100%) on multiple benchmarks with stored data might indicate potential overfitting or test set leakage
+3. The HuggingFace results, while lower, might be more representative of real-world performance due to larger sample sizes
+
+I would recommend:
+
+1. Investigating why there's such a large performance gap between the two data sources
+2. Increasing the sample size for stored data tests to ensure more reliable results
+3. Conducting additional tests with diverse datasets to validate the model's performance
+
+![image](https://github.com/user-attachments/assets/d56e5957-7b02-4cbf-bcc9-3012a509ec53)
+
+
 ## Overfitting and Underfitting Evaluation<br/>
 Overfitting happens when a model learns the training data too well, including noise, leading to high training accuracy but poor performance on new data. It shows a large gap between training and validation metrics. Underfitting occurs when a model is too simple to capture the data's patterns, resulting in poor performance on both training and validation datasets.
 
