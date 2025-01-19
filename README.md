@@ -46,7 +46,7 @@ BLEU (Bilingual Evaluation Understudy) is a metric that measures machine transla
 
 Run (using stored dataset):
 ```
-C:\Windows\py.exe .\BLEU_Eval.py --input translation-test-data.json --output results.json
+C:\Windows\py.exe .\BLEU_Eval.py --input translation-test-data.json --output translation_results.json
 ```
 Run (using HuggingFace dataset):  
 ```
