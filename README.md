@@ -29,11 +29,10 @@ MMLU (Massive Multitask Language Understanding) is a testing tool that evaluates
 •	Find where models are strong or weak<br/>
 •	Track AI progress in understanding complex topics
 
-Run (using stored dataset): C:\Windows\py.exe .\MMLU.py<br/>
+Run (using stored dataset): 
 ```
 C:\Windows\py.exe .\MMLU.py
 ```
-
 Run (using HuggingFace dataset):  
 ```
 C:\Windows\py.exe .\MMLU_Eval_HF.py
@@ -42,9 +41,14 @@ C:\Windows\py.exe .\MMLU_Eval_HF.py
 ### BLEU evaluation<br/>
 BLEU (Bilingual Evaluation Understudy) is a metric that measures machine translation quality by comparing AI translations to human translations. It works by counting matching words and phrases, giving a score from 0 to 1 (or 0-100%). Higher scores mean the AI translation is closer to human translation.
 
-Run (using stored dataset):<br/>
-C:\Windows\py.exe .\BLEU_Eval.py --input translation-test-data.json --output results.json<br/>
-Run (using HuggingFace dataset):  C:\Windows\py.exe .\BLEU_Eval_HF.py
+Run (using stored dataset):
+```
+C:\Windows\py.exe .\BLEU_Eval.py --input translation-test-data.json --output results.json
+```
+Run (using HuggingFace dataset):  
+```
+C:\Windows\py.exe .\BLEU_Eval_HF.py
+```
 
 ### HellaSwag evaluation<br/>
 HellaSwag is an AI test that measures common sense understanding. It shows the AI the start of a situation and asks it to pick the most logical ending from multiple choices. It helps evaluate if AI can understand everyday situations and predict what would naturally happen next. 
