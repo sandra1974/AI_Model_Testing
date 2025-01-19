@@ -24,7 +24,7 @@ Benchmark tests are written in Python and completed in 2 ways:<br/>
 
 All Benchmark tests are stored inside `Model_Engineering` folder.<br/>
 
-### MMLU evaluation<br/>
+### MMLU Evaluation<br/>
 MMLU (Massive Multitask Language Understanding) is a testing tool that evaluates how well AI language models perform across 57 different subjects. It works like a comprehensive exam, using multiple-choice questions to test knowledge in areas from basic science to advanced professional topics like law and medicine. Its main purpose is to measure how well AI models understand and can reason about different subjects, and to provide a way to compare different AI models' capabilities. The test helps:<br/>
 
 •	Measure knowledge across many fields<br/>
@@ -41,7 +41,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\MMLU_Eval_HF.py
 ```
 
-### BLEU evaluation<br/>
+### BLEU Evaluation<br/>
 BLEU (Bilingual Evaluation Understudy) is a metric that measures machine translation quality by comparing AI translations to human translations. It works by counting matching words and phrases, giving a score from 0 to 1 (or 0-100%). Higher scores mean the AI translation is closer to human translation.
 
 Run (using stored dataset):
@@ -53,7 +53,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\BLEU_Eval_HF.py
 ```
 
-### HellaSwag evaluation<br/>
+### HellaSwag Evaluation<br/>
 HellaSwag is an AI test that measures common sense understanding. It shows the AI the start of a situation and asks it to pick the most logical ending from multiple choices. It helps evaluate if AI can understand everyday situations and predict what would naturally happen next. 
 
 Run (using stored dataset):  
@@ -65,7 +65,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\HellaSwag_HF.py
 ```
 
-### TruthfulQA evaluation<br/>
+### TruthfulQA Evaluation<br/>
 TruthfulQA is a benchmark that tests whether AI models give accurate answers or repeat common misconceptions. It uses ~800 questions across topics like health and history, where each question has both a true answer and false answers reflecting popular myths. Models are scored on both truthfulness and informativeness, with evaluation done through both free-form answers and multiple choice questions.
 
 Run (using stored dataset):  
@@ -77,7 +77,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\TruthfulQA_HF.py
 ```
 
-### HumanEval evaluation<br/>
+### HumanEval Evaluation<br/>
 HumanEval is a coding benchmark with 164 Python programming problems. Each includes a function description and test cases. Models must generate working code solutions, and are evaluated on pass@k - the chance of getting a correct solution when sampling k times. It tests actual code execution rather than just comparing to reference solutions.
 
 Run (using stored dataset): 
@@ -89,7 +89,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\HumanEval_HF.py
 ```
 
-### Rouge evaluation<br/>
+### Rouge Evaluation<br/>
 ROUGE (Recall-Oriented Understudy for Gisting Evaluation) is a metric for evaluating text summarization and translation by comparing machine-generated text against human references. It counts matching elements (like words or phrases) between them, measuring both how much of the reference is captured (recall) and how accurate the generated text is (precision).
 
 The following variants are evaluated:<br/>
@@ -106,7 +106,7 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\ROUGE_Eval_HF.py
 ```
 
-### Bert evaluation<br/>
+### Bert Evaluation<br/>
 BERT evaluation typically uses benchmarks like GLUE and SQuAD to test the model's language understanding abilities across tasks like question answering, sentiment analysis, and text similarity. Performance is measured using accuracy and F1 scores.
 
 Run (using stored dataset):  
@@ -198,7 +198,7 @@ Performance tests are executed to measure how an AI model performs under high de
 •	CPU, memory, and network usage at different load levels<br/>
 •	Maximum load before performance degrades/fails<br/>
 
-## Use Case: Testing of AI model<br/>
+## Use Case: Testing of AI Model<br/>
 •	Test the AI model using semantically equivalent sentences and create an automated library for this purpose<br/>
 •	Maintain configurations of basic and advanced semantically equivalent sentences with formal and informal tones and complex words<br/>
 •	Automate end-to-end scenario (requesting AI model, getting a response and validating the response action with accepted output)<br/>
