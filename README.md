@@ -14,7 +14,7 @@ The following environment is set up:<br/>
 •	Postman<br/>
 •	JMeter<br/>
 •	API key generated from this link: https://console.anthropic.com/dashboard<br/> 
-•	Configure environment variables > > > variable name: $ANTHROPIC_API_KEY and variable value: your api key<br/>
+•	Configured environment variable > > > variable name: $ANTHROPIC_API_KEY and variable value: api key<br/>
 
 ## Benchmark Testing<br/>
 Benchmark tests are written in Python and completed in 2 ways:<br/>
