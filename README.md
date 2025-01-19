@@ -25,6 +25,7 @@ All Benchmark tests are stored inside Model_Engineering folder.<br/>
 ### MMLU evaluation<br/>
 •	Measure knowledge across many fields<br/>
 MMLU (Massive Multitask Language Understanding) is a testing tool that evaluates how well AI language models perform across 57 different subjects. It works like a comprehensive exam, using multiple-choice questions to test knowledge in areas from basic science to advanced professional topics like law and medicine. Its main purpose is to measure how well AI models understand and can reason about different subjects, and to provide a way to compare different AI models' capabilities. The test helps:<br/>
+
 •	Measure knowledge across many fields<br/>
 •	Compare different AI models<br/>
 •	Find where models are strong or weak<br/>
