@@ -136,8 +136,7 @@ Benchmark scores based on the HuggingFace dataset:<br/>
 
 Some important observations:<br/>
 1. The sample sizes vary significantly between stored data files and HuggingFace dataset<br/>
-2. There are some missing data points (e.g., HellaSwag for HuggingFace dataset)<br/>
-3. The dramatically different results between datasets suggest there might be important underlying differences in how the tests were conducted or what data was used
+2. The dramatically different results between datasets suggest there might be important underlying differences in how the tests were conducted or what data was used
 
 Rather than drawing definitive conclusions about the model's performance, I'd recommend:<br/>
 • Investigating why there are such large disparities between the datasets<br/>
