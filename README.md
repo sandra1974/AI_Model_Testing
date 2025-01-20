@@ -1,5 +1,5 @@
 # AI_Model_Testing
-This project aims to validate how an AI model behaves in different scenarios and whether it returns exact, accurate, and relevant answers. It is also tested how the AI model behaves when many users simultaneously ask questions and what is the speed of the AI model response. All these tests are conducted on AI model claude-3-5-sonnet-20241022. Test scripts are divided into two separate folders: 
+This project aims to validate how an AI model behaves in different scenarios and whether it returns exact, accurate, and relevant answers. It is also tested how the AI model behaves when many users simultaneously ask questions and what is the speed of the AI model response. All these tests are conducted on AI model claude-3-5-sonnet-20241022. Test scripts are divided into two separate folders:
 
 •	`Model_Engineering`<br/> 
 •	`Model_Evaluation`
@@ -119,30 +119,30 @@ C:\Windows\py.exe .\BERT_Eval_HF.py
 ```
 
 ### Benchmark scores:
-Benchmark scores based on the stored data file:
-• MMLU: Perfect accuracy (100%) on 30 samples
-• HellaSwag: Perfect accuracy (100%) on 10 samples
-• BLEU: Strong performance with 88% score on 11 samples
-• BERT metrics show some concerning results with negative precision (-0.052) and low F1 score (0.099)
-• Rouge scores show moderate performance across Rouge-1, Rouge-2, and Rouge-L metrics
-• TruthfulQA shows a perfect truthful rate (1.0) but a low average similarity score (0.135)
+Benchmark scores based on the stored data file:<br/>
+• MMLU: Perfect accuracy (100%) on 30 samples<br/>
+• HellaSwag: Perfect accuracy (100%) on 10 samples<br/>
+• BLEU: Strong performance with 88% score on 11 samples<br/>
+• BERT metrics show some concerning results with negative precision (-0.052) and low F1 score (0.099)<br/>
+• Rouge scores show moderate performance across Rouge-1, Rouge-2, and Rouge-L metrics<br/>
+• TruthfulQA shows a perfect truthful rate (1.0) but a low average similarity score (0.135)<br/>
 
-Benchmark scores based on the HuggingFace dataset:
-• MMLU: Lower accuracy (60%) on 10 samples
-• BLEU: Significantly lower score (31%) on 15 samples
-• BERT shows much better performance with balanced precision (0.82) and recall (0.88)
-• Rouge scores generally show higher precision but lower recall compared to the stored dataset
-• TruthfulQA shows very low accuracy (3.4%) on a much larger sample size (817 samples)
+Benchmark scores based on the HuggingFace dataset:<br/>
+• MMLU: Lower accuracy (60%) on 10 samples<br/>
+• BLEU: Significantly lower score (31%) on 15 samples<br/>
+• BERT shows much better performance with balanced precision (0.82) and recall (0.88)<br/>
+• Rouge scores generally show higher precision but lower recall compared to the stored dataset<br/>
+• TruthfulQA shows very low accuracy (3.4%) on a much larger sample size (817 samples)<br/>
 
-Some important observations:
-1. The sample sizes vary significantly between stored data files and HuggingFace dataset
-2. There are some missing data points (e.g., HellaSwag for HuggingFace dataset)
+Some important observations:<br/>
+1. The sample sizes vary significantly between stored data files and HuggingFace dataset<br/>
+2. There are some missing data points (e.g., HellaSwag for HuggingFace dataset)<br/>
 3. The dramatically different results between datasets suggest there might be important underlying differences in how the tests were conducted or what data was used
 
-Rather than drawing definitive conclusions about the model's performance, I'd recommend:
-• Investigating why there are such large disparities between the datasets
-• Understanding the specific test conditions and data preprocessing methods used
-• Conducting additional tests with larger, consistent sample sizes
+Rather than drawing definitive conclusions about the model's performance, I'd recommend:<br/>
+• Investigating why there are such large disparities between the datasets<br/>
+• Understanding the specific test conditions and data preprocessing methods used<br/>
+• Conducting additional tests with larger, consistent sample sizes<br/>
 • Looking into the negative precision value in the BERT test, as this seems unusual 
 
 ## Overfitting and Underfitting Evaluation<br/>
