@@ -245,7 +245,7 @@ JMeter configuration:<br/>
 Postman configuration:<br/>
 
 • Select Settings > Proxy > Use custom proxy configuration option<br/>
-• Fill Proxy server fields: enter your IP and port:8888 (this is JMeter port)<br/>
+• Fill Proxy server fields: enter your IP and port: 8888 (this is JMeter port)<br/>
 
 Action:<br/>
 
