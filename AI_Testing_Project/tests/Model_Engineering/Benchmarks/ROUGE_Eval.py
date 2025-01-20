@@ -5,6 +5,14 @@ import time
 from typing import List, Dict, Any
 from tqdm import tqdm
 import os
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
+
+from config import * 
 
 class RougeEvaluator:
     def __init__(
@@ -35,9 +43,7 @@ class RougeEvaluator:
             ...
         ]
         """
-        file_path="C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\rouge_test_data.json"
-
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(f"{Config.dataset_folder}/rouge_test_data.json", "r") as f:
             return json.load(f)
 
     def get_model_response(self, prompt: str) -> str:
