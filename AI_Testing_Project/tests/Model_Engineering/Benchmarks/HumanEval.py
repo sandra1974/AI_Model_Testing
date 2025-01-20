@@ -4,15 +4,21 @@ import time
 from typing import List, Dict, Any
 from tqdm import tqdm
 import os
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
+
+from config import * 
 
 def load_human_eval_problems(file_path: str = "HumanEval.jsonl") -> List[Dict[str, Any]]:
     """
     Load HumanEval problems from a JSON file.
     """
-    file_path ="C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\humaneval_dataset.json"
-
     problems = []
-    with open(file_path, 'r') as f:
+     with open(f"{Config.dataset_folder}/humaneval_dataset.json", "r") as f:   
         for line in f:
             problems.append(json.loads(line))
     return problems
