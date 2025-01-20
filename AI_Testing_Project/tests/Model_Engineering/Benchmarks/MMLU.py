@@ -5,14 +5,21 @@ from tqdm import tqdm
 import numpy as np
 from typing import List, Dict
 import os
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
+
+from config import *
 
 def load_mmlu_data(path: str) -> pd.DataFrame:
     """
     Load MMLU dataset from a CSV file.
     Expected format: question, A, B, C, D, answer
     """
-    path="C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\mmlu_sample_data.csv"
-    df = pd.read_csv(path)
+    df = pd.read_csv(f"{Config.dataset_folder}/mmlu_sample_data.csv")
     return df
 
 def format_mmlu_prompt(row: pd.Series) -> str:
