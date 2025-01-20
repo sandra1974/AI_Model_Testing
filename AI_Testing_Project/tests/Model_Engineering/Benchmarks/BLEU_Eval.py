@@ -8,6 +8,14 @@ from tqdm import tqdm
 import logging
 import os
 import argparse
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
+
+from config import * 
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -99,10 +107,9 @@ class TranslationEvaluator:
 
 def load_test_data(file_path: str) -> List[Dict]:
     """Load test cases from a JSON file."""
-    file_path="C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\translation_test_data.json"
-
+    
     try:
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(f"{Config.dataset_folder}/translation_test_data.json", "r") as f:
             test_data = json.load(f)
         
         # Validate the data structure
