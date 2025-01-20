@@ -118,35 +118,32 @@ Run (using HuggingFace dataset):
 C:\Windows\py.exe .\BERT_Eval_HF.py
 ```
 
-### Key observations:
-1. There's a consistent pattern where the "stored data file" tests show significantly better performance than the HuggingFace dataset tests:
-MMLU: 100% vs 60% accuracy
-BLEU: 88% vs 31% score
-HellaSwag: 100% (no HuggingFace comparison)
-TruthfulQA: 100% truthful rate vs 3.4% accuracy
+### Benchmark scores:
+Benchmark scores based on the stored data file:
+• MMLU: Perfect accuracy (100%) on 30 samples
+• HellaSwag: Perfect accuracy (100%) on 10 samples
+• BLEU: Strong performance with 88% score on 11 samples
+• BERT metrics show some concerning results with negative precision (-0.052) and low F1 score (0.099)
+• Rouge scores show moderate performance across Rouge-1, Rouge-2, and Rouge-L metrics
+• TruthfulQA shows a perfect truthful rate (1.0) but a low average similarity score (0.135)
 
-2. The sample sizes are notably different:
-Stored data tests typically use smaller samples (10-30 samples)
-HuggingFace tests sometimes use larger samples (e.g., 817 for TruthfulQA)
+Benchmark scores based on the HuggingFace dataset:
+• MMLU: Lower accuracy (60%) on 10 samples
+• BLEU: Significantly lower score (31%) on 15 samples
+• BERT shows much better performance with balanced precision (0.82) and recall (0.88)
+• Rouge scores generally show higher precision but lower recall compared to the stored dataset
+• TruthfulQA shows very low accuracy (3.4%) on a much larger sample size (817 samples)
 
-3. Rouge scores show mixed results:
-Stored data shows better recall but lower precision
-HuggingFace shows better precision but lower recall
+Some important observations:
+1. The sample sizes vary significantly between stored data files and HuggingFace dataset
+2. There are some missing data points (e.g., HellaSwag for HuggingFace dataset)
+3. The dramatically different results between datasets suggest there might be important underlying differences in how the tests were conducted or what data was used
 
-These results suggest that while the model performs exceptionally well on the stored data tests, the performance on HuggingFace datasets is significantly lower. This large disparity raises some important considerations:
-
-1. The small sample size in stored data tests might not be representative of real-world performance
-2. The perfect scores (100%) on multiple benchmarks with stored data might indicate potential overfitting or test set leakage
-3. The HuggingFace results, while lower, might be more representative of real-world performance due to larger sample sizes
-
-I would recommend:
-
-1. Investigating why there's such a large performance gap between the two data sources
-2. Increasing the sample size for stored data tests to ensure more reliable results
-3. Conducting additional tests with diverse datasets to validate the model's performance
-
-![image](https://github.com/user-attachments/assets/d56e5957-7b02-4cbf-bcc9-3012a509ec53)
-
+Rather than drawing definitive conclusions about the model's performance, I'd recommend:
+• Investigating why there are such large disparities between the datasets
+• Understanding the specific test conditions and data preprocessing methods used
+• Conducting additional tests with larger, consistent sample sizes
+• Looking into the negative precision value in the BERT test, as this seems unusual 
 
 ## Overfitting and Underfitting Evaluation<br/>
 Overfitting happens when a model learns the training data too well, including noise, leading to high training accuracy but poor performance on new data. It shows a large gap between training and validation metrics. Underfitting occurs when a model is too simple to capture the data's patterns, resulting in poor performance on both training and validation datasets.
