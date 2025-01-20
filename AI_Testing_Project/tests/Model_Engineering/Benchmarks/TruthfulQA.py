@@ -5,6 +5,14 @@ from tqdm import tqdm
 from typing import Dict, List, Tuple
 import numpy as np
 import os
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
+
+from config import * 
 
 def load_truthfulqa_data(path: str) -> pd.DataFrame:
     """
@@ -14,9 +22,7 @@ def load_truthfulqa_data(path: str) -> pd.DataFrame:
     - correct_answers (list)
     - incorrect_answers (list)
     """
-    path = "C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\truthfulqa_data.json"
-
-    with open(path, 'r') as f:
+    with open(f"{Config.dataset_folder}/truthfulqa_data.json", "r") as f:
         data = json.load(f)
     return pd.DataFrame(data)
 
