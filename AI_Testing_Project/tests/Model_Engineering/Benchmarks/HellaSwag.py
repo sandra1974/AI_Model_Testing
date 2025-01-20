@@ -5,16 +5,20 @@ from tqdm import tqdm
 import numpy as np
 from typing import Dict, List
 import os
+from pathlib import Path
+import sys
+
+# Add config directory to path
+config_path = Path(__file__).parent / 'config'
+sys.path.append(str(config_path))
 
 def load_hellaswag_data(path: str) -> pd.DataFrame:
     """
     Load HellaSwag dataset from a JSON file.
     Expected format includes: context/activity_label, endings (4 choices), label (correct answer index)
     """
-    path = "C:\\Users\\SandraDujmovic\\Documents\\AI_Testing_Projects\\ClaudeAI\\tests\\LLM\\Model_Engineering\\Benchmarks\\Dataset\\hellaswag_sample_data.json"
-
     try:
-        with open(path, 'r') as f:
+        with open(f"{Config.dataset_folder}/hellaswag_sample_data.json", "r") as f:
             data = json.load(f)
         
         # Convert to DataFrame if it's a list of dictionaries
