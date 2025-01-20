@@ -8,7 +8,7 @@ from pathlib import Path
 import sys
 
 # Add config directory to path
-config_path = Path(__file__).parent.parent / 'config'
+config_path = Path(__file__).parent.parent.parent.parent / 'config'
 sys.path.append(str(config_path))
 
 from config import * 
